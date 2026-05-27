@@ -9,7 +9,7 @@ canonical, up-to-date content, audio recordings, and community features.
 
 ## What's included
 
-This snapshot currently covers **Saadi (سعدی)**:
+### Saadi (سعدی)
 
 | Section | Description |
 |---|---|
@@ -21,13 +21,24 @@ This snapshot currently covers **Saadi (سعدی)**:
 | `saadi/nasr/` | نثرها |
 | `saadi/majales5/` | مجالس پنجگانه |
 
+### Hafez (حافظ)
+
+| Section | Description |
+|---|---|
+| `hafez/ghazal/` | غزلیات — Ghazals (496) |
+| `hafez/montasab/` | منتسبات — Attributed poems (119) |
+| `hafez/robaee2/` | رباعیات — Rubaiyat |
+| `hafez/ghete/` | قطعات — Qit'as |
+| `hafez/ghaside/` | قصاید — Qasidas |
+
 Additional poets will be added over time using the same mirror process.
 
 ## How to browse
 
 ### Online (GitHub Pages)
 
-Start at [`Saadi`](https://dshahmirzad.github.io/Ganjoor/) 
+- [`Saadi`](https://dshahmirzad.github.io/Ganjoor/saadi/)
+- [`Hafez`](https://dshahmirzad.github.io/Ganjoor/hafez/)
 
 ### Locally — via a tiny HTTP server (recommended)
 
@@ -37,14 +48,14 @@ From the repository root:
 python3 -m http.server 8080
 ```
 
-Then visit <http://localhost:8080/saadi/>.
+Then visit <http://localhost:8080/saadi/> or <http://localhost:8080/hafez/>.
 
 ### Locally — by opening files directly
 
-Open `saadi/divan.html` (or any other page) in your browser. All asset and
-page links are relative and `.html`-suffixed, so file:// browsing works for
-poems and navigation; some live features that depend on ganjoor.net's API
-(search box, similar-poet recommendations) will be inert.
+Open `saadi/divan.html`, `hafez/hafez.html`, or any other page in your browser.
+All asset and page links are relative and `.html`-suffixed, so file:// browsing
+works for poems and navigation; some live features that depend on ganjoor.net's
+API (search box, similar-poet recommendations) will be inert.
 
 ## What's NOT mirrored
 
