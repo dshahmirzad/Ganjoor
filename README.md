@@ -27,9 +27,7 @@ Additional poets will be added over time using the same mirror process.
 
 ### Online (GitHub Pages)
 
-If GitHub Pages is enabled on this repository, every page is browsable directly
-from your browser — start at [`/saadi/`](saadi/) or open
-[`saadi/divan.html`](saadi/divan.html).
+Start at [`Saadi`](https://dshahmirzad.github.io/Ganjoor/) 
 
 ### Locally — via a tiny HTTP server (recommended)
 
