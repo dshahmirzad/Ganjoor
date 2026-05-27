@@ -27,7 +27,7 @@ Additional poets will be added over time using the same mirror process.
 
 ### Online (GitHub Pages)
 
-Start at [`Saadi`](https://dshahmirzad.github.io/Ganjoor/) 
+Start at [`Saadi`](https://dshahmirzad.github.io/Ganjoor/saadi/) or [`Home`](https://dshahmirzad.github.io/Ganjoor/)
 
 ### Locally — via a tiny HTTP server (recommended)
 
