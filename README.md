@@ -31,13 +31,27 @@ canonical, up-to-date content, audio recordings, and community features.
 | `hafez/ghete/` | قطعات — Qit'as |
 | `hafez/ghaside/` | قصاید — Qasidas |
 
+### Other high-traffic poets (سخنوران پرمخاطب)
+
+| Poet | Directory | Notes |
+|---|---|---|
+| Moulavi / Rumi (مولوی) | `moulavi/` | Masnavi, Divan-e Shams, etc. (~6,400 pages) |
+| Saeb Tabrizi (صائب) | `saeb/` | Divan-e Saeb (~9,900 pages — largest in the mirror) |
+| Attar (عطار) | `attar/` | Manteq al-Tayr, Elahi-nameh, Asrar-nameh, … (~5,200 pages) |
+| Ferdousi (فردوسی) | `ferdousi/` | Shahnameh and shorter works (~840 pages) |
+| Nezami (نظامی) | `nezami/` | Khamseh (~385 pages) |
+| Khayyam (خیام) | `khayyam/` | Rubaiyat and tarane (~450 pages) |
+| Iraj Mirza (ایرج میرزا) | `iraj/` | Divan (~246 pages) |
+| Shahriar (شهریار) | `shahriar/` | Divan (~200 pages) |
+
 Additional poets will be added over time using the same mirror process.
 
 ## How to browse
 
 ### Online (GitHub Pages)
 
-Start at [`Saadi`](https://dshahmirzad.github.io/Ganjoor/saadi/), [`Hafez`](https://dshahmirzad.github.io/Ganjoor/hafez/), or [`Home`](https://dshahmirzad.github.io/Ganjoor/)
+- Poets: [`Saadi`](https://dshahmirzad.github.io/Ganjoor/saadi/) · [`Hafez`](https://dshahmirzad.github.io/Ganjoor/hafez/) · [`Moulavi`](https://dshahmirzad.github.io/Ganjoor/moulavi/) · [`Saeb`](https://dshahmirzad.github.io/Ganjoor/saeb/) · [`Attar`](https://dshahmirzad.github.io/Ganjoor/attar/) · [`Ferdousi`](https://dshahmirzad.github.io/Ganjoor/ferdousi/) · [`Nezami`](https://dshahmirzad.github.io/Ganjoor/nezami/) · [`Khayyam`](https://dshahmirzad.github.io/Ganjoor/khayyam/) · [`Iraj`](https://dshahmirzad.github.io/Ganjoor/iraj/) · [`Shahriar`](https://dshahmirzad.github.io/Ganjoor/shahriar/)
+- [`Home`](https://dshahmirzad.github.io/Ganjoor/)
 
 ### Locally — via a tiny HTTP server (recommended)
 
@@ -47,11 +61,11 @@ From the repository root:
 python3 -m http.server 8080
 ```
 
-Then visit <http://localhost:8080/saadi/> or <http://localhost:8080/hafez/>.
+Then visit any poet, e.g. <http://localhost:8080/saadi/> or <http://localhost:8080/moulavi/>.
 
 ### Locally — by opening files directly
 
-Open `saadi/divan.html`, `hafez/hafez.html`, or any other page in your browser.
+Open `saadi/divan.html`, `hafez/hafez.html`, `moulavi/masnavi.html`, or any other page in your browser.
 All asset and page links are relative and `.html`-suffixed, so file:// browsing
 works for poems and navigation; some live features that depend on ganjoor.net's
 API (search box, similar-poet recommendations) will be inert.
